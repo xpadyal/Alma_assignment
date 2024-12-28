@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // "jsx": "preserve"  //prev stable
+    "types": ["jest", "@testing-library/jest-dom"],
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/sahil.js"
+, "components/features/internal-leads/internalLeads.tsxx", "pages/internal-leads_mock_auth.js", "pages/internal-leads_mock_auth.js, "components/features/internal-leads/internalLeads.tjs""  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

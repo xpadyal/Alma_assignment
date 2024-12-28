@@ -1,0 +1,309 @@
+/* Icon Wrapper */
+.icon-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Cube Icon */
+.cube-icon {
+  width: 80px;
+  height: 80px;
+  color: #6b46c1; /* Purple color */
+}
+
+/* Heart Icon */
+.heart-icon {
+  width: 80px;
+  height: 80px;
+  color: #6b46c1; /* Purple color */
+}
+
+
+/* Olive green container for the header */
+
+.header-container {
+  background-color:  #e3e6cc; /* Olive green background */
+  padding: 8rem 1rem; /* Add padding for spacing */
+  text-align: center; /* Center-align all content */
+  border-radius: 10px 10px 0 0; /* Rounded bottom corners */
+}
+
+/* Main heading in the header */
+/* Style for the form header */
+.form-header {
+  text-align: center; /* Centers the heading horizontally */
+  background-color: #e3e6cc; /* Light green background */
+  padding: 20px 10px; /* Add padding for spacing */
+}
+
+/* Style for the main heading */
+.main-heading {
+  font-size: 36px; /* Ensure consistent font size */
+  font-weight: 900; /* Bold text */
+  color: #000000;
+  line-height: 1.2; /* Compact spacing between lines */
+  margin: 0 auto; /* Center the heading container */
+  max-width: 500px; /* Restrict width for consistent alignment */
+  font-family: 'Arial', sans-serif; /* Clean font family */
+  word-break: break-word; /* Ensure words don't overflow */
+}
+
+
+/* Subheading under the main heading */
+.heading-2 {
+  font-size: 1.2rem; /* Slightly smaller font size */
+  font-weight: bold;
+  color: #4d4d4d; /* Subtle gray color */
+  margin-top: 0.5rem; /* Small margin above the text */
+  margin-bottom: 1rem;
+  line-height: 1.6; /* Increase line height for readability */
+  max-width: 500px; /* Limit text width for better layout */
+  margin-left: auto;
+  margin-right: auto; /* Center the subheading */
+  text-align: center;
+}
+
+
+
+.subheading {
+  text-align: center; /* Centers the text horizontally */
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: 500; /* Optional: Adjust font weight */
+  line-height: 1.8; /* Ensures consistent line spacing */
+  margin: 0 auto; /* Centers the element in the parent container */
+  max-width: 600px; /* Optional: Controls the maximum width for better alignment */
+}
+
+/* Form Section Container */
+.form-container {
+  background-color: #ffffff; /* White background for the form */
+  max-width: 800px; /* Limit the form width */
+  margin: 2rem auto; /* Center the form vertically and horizontally */
+  padding: 2rem; /* Add spacing inside the form container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+  text-align: center; /* Center text in the form */
+}
+
+/* Input Fields */
+.input-group input {
+  width: calc(100% - 28px);/* Full width for the input fields */
+  padding: 0.75rem; /* Add padding inside the input */
+  font-size: 1rem; /* Medium font size */
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 1rem; /* Add space below each input */
+  outline: none; /* Remove default outline */
+  margin-right: 200px;
+}
+
+.input-group select {
+  width: 100%; /* Full width for the input fields */
+  padding: 0.75rem; /* Add padding inside the input */
+  font-size: 1rem; /* Medium font size */
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 1rem; /* Add space below each input */
+  outline: none; /* Remove default outline */
+}
+
+.input-group input:focus {
+  border-color: #0066ff; /* Blue border on focus */
+  box-shadow: 0 0 3px rgba(0, 102, 255, 0.3); /* Subtle glow effect */
+}
+
+/* Checkbox Group */
+.checkbox-group {
+  text-align: left; /* Left-align checkboxes */
+  margin-bottom: 1.5rem; /* Add space below the checkbox group */
+}
+
+.checkbox-group label {
+  
+  font-weight: bold; /* Bold font for checkbox labels */
+  display: block; /* Each checkbox label gets its own line */
+  margin-bottom: 0.5rem; /* Space between checkboxes */
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column; /* Stack checkboxes vertically */
+  gap: 0.5rem; /* Add space between checkboxes */
+  align-items: flex-start;
+}
+
+/* Textarea */
+.help-textbox label {
+  font-weight: bold; /* Bold label for the textarea */
+  display: block; /* Ensure label is on its own line */
+  margin-bottom: 0.5rem; /* Add space below the label */
+}
+
+.help-textbox textarea  {
+  width: 90%; /*  width for the textarea */
+  padding: 0.75rem; /* Add padding inside the textarea */
+  font-size: 1rem; /* Medium font size */
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  resize: none; /* Disable resize for consistency */
+  outline: none; /* Remove default outline */
+  margin-bottom: 1.5rem; /* Add space below the textarea */
+}
+
+.help-textbox textarea:focus {
+  border-color: #0066ff; /* Blue border on focus */
+  box-shadow: 0 0 3px rgba(0, 102, 255, 0.3); /* Subtle glow effect */
+}
+
+/* Submit Button */
+.button {
+   
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.button:hover {
+  background-color: #0052cc; /* Darker blue on hover */
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+/* Container for the Thank You page */
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff; /* Matches the background color in the image */
+  text-align: center;
+}
+
+/* Icon styling */
+/* Heroicon styling */
+.thank-you-icon {
+  width: 80px;
+  height: 80px;
+  color: #6b46c1; /* Purple color similar to the example */
+  margin-bottom: 20px;
+}
+
+
+.icon-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Ensure it fills the container */
+}
+
+.thank-you-icon-1 {
+  width: 80px;
+  height: 80px;
+  color: #6b46c1; /* Purple color similar to the example */
+  margin-bottom: 20px;
+}
+
+
+
+/* Title styling */
+.thank-you-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Message styling */
+.thank-you-message {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1.5;
+  max-width: 600px; /* Center the text within a fixed width */
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+.thank-you-button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.thank-you-button:hover {
+  background-color: #333333;
+}
+
+.heart-icon {
+  width: 80px; /* Size of the icon */
+  height: 80px;
+  color: #6b46c1; /* Purple color */
+  margin-bottom: 5px; /* Adds space below the icon */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Centers the icon horizontally */
+}
+
+.dice-icon {
+  width: 80px; /* Adjust size */
+  height: 80px;
+  color: #6b46c1; /* Purple color */
+  margin-bottom: 5px; /* Spacing between the icon and the label */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Centers the icon horizontally */
+}
+
+
+/* File upload group container */
+.file-upload-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Label above the button */
+.file-upload-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Placeholder upload button */
+.file-upload-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6b46c1; /* Purple button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-upload-button:hover {
+  background-color: #563d99; /* Darker purple on hover */
+}
+
+
