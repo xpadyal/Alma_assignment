@@ -103,14 +103,13 @@ The application is a Next.js web application designed for managing internal lead
        
 
 ### File Structure
-Key Directories
-src/: schema (for JSONForms)
-components/: InternalLead UI.
-pages/: Contains UI
-pages/api/:
-: Contains Next.js API routes.
-Other page components.
-tests/: Contains test files for components and functionality.
+-Key Directories
+-src/: schema (for JSONForms)
+-components/: InternalLead UI.
+-pages/: Contains UI
+-pages/api/:Contains Next.js API routes.
+-Other page components.
+-tests/: Contains test files for components and functionality.
 
 
 ---
