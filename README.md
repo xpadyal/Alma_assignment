@@ -94,6 +94,13 @@ The application is a Next.js web application designed for managing internal lead
    - **How:**
      - Interfaces (`Lead`) are defined for data structures.
      - Types are added for states and event handlers.
+    
+### 6. **Auth:**
+   - **Why:**
+     - Used Mock Auth based on the requirement (Use **admin123** as password to login into internal-lead-UI).
+   - **How:**
+     - Created internal-leads-auth.tsx to handle auth
+       
 
 ### File Structure
 Key Directories
