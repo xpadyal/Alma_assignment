@@ -52,7 +52,7 @@
 ## Overview
 The application is a Next.js web application designed for managing internal leads with features for mock authentication, filtering, and updating lead statuses. The tech stack includes:
 
-- **Frontend:** React with Material-UI and CSS
+- **Frontend:** React with Material-UI and CSS (Assets were not provided so I haven't added images in the UI)
 - **Backend:** Next.js API routes
 - **Data Fetching:** Axios for API communication
 
