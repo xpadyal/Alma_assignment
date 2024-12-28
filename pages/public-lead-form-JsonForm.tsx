@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 import axios from "axios";
 import styles from "./public-lead-form.module.css";
 import { DocumentTextIcon, HeartIcon, CubeIcon } from "@heroicons/react/solid";
