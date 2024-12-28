@@ -102,14 +102,41 @@ The application is a Next.js web application designed for managing internal lead
      - Created internal-leads-auth.tsx to handle auth
        
 
-### File Structure
--Key Directories
--src/: schema (for JSONForms)
--components/: InternalLead UI.
--pages/: Contains UI
--pages/api/:Contains Next.js API routes.
--Other page components.
--tests/: Contains test files for components and functionality.
+## File Structure Documentation
+
+This document outlines the key directories and their purposes in the project.
+
+---
+
+### Key Directories
+
+### `src/`
+- **Purpose:** Contains core resources and utilities for the project.
+- **Subdirectory:**
+  - `schema/`: Contains JSON schema files used for JSONForms.
+
+### `components/`
+- **Purpose:** Houses reusable UI components.
+- **Example:**
+  - `InternalLead/`: Contains UI components specific to the InternalLead functionality.
+
+### `pages/`
+- **Purpose:** Includes all page-level components for the application.
+- **Subdirectory:**
+  - `pages/api/`: Contains Next.js API routes for handling backend logic.
+  - Other page components for various routes.
+
+### `tests/`
+- **Purpose:** Contains test files for components and application functionality.
+- **Example:**
+  - Unit tests for components.
+  - Integration tests for verifying end-to-end functionality.
+
+---
+
+This structure is designed to maintain modularity and clarity in organizing project files, ensuring scalability and ease of maintenance.
+
+
 
 
 ---
